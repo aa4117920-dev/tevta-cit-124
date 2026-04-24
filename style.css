@@ -31,13 +31,10 @@ body{
 #page-heading{
 	position: sticky;
 		top:0;
-	padding:10px;
 	display: flex;
-	font-size:2rem;
 	justify-content: center;
 	align-items: center;
 	font-family: sans-serif;
-	background-color:var(--prac-head-color);
 	color:var(--m-heading-color);
 }
 
