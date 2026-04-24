@@ -31,12 +31,13 @@ body{
 #page-heading{
 	position: sticky;
 		top:0;
-	margin-top: 30px;
+	padding:10px;
 	display: flex;
-	font-size:2.3rem;
+	font-size:2rem;
 	justify-content: center;
 	align-items: center;
 	font-family: sans-serif;
+	background-color:var(--prac-head-color);
 	color:var(--m-heading-color);
 }
 
@@ -100,7 +101,7 @@ transform: scale(0.9);
 	margin-left:15%;
 	padding:10px 5px;
 	border-radius:20px;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
