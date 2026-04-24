@@ -9,8 +9,8 @@ function calling(practicals) {
         let html = `
             <div class="prac" id="pr${count}" style="overflow: hidden; cursor: pointer;">
                 <h2 class="pract-h">${ind.pr_hd}</h2>
-                <p class="obj">${ind.obj}</p>
-                <a href="${ind.video_lnk}" class="video-btn">video</a>
+                <p class="obj" title="objective"><para class="prac-out" title="Outline">${ind.outl}</para><br>${ind.obj}</p>
+                <a href="${ind.video_lnk}" class="video-btn" title="video-button">video</a>
             </div>
         `;
 
@@ -37,15 +37,17 @@ function calling(practicals) {
 function database() {
     let pr1 = {
         "index": 1,
-        "pr_hd": "practical no 1 :",
-        "obj": "Remaining essentially unchanged1...",
-        "video_lnk": "https://youtube.com"
+        "pr_hd": "Practical no 1 :",
+        "outl":`Basic use of ammeter, voltmeter, and multimeter for measuring electrical values.`,
+        "obj": `Ammeter, voltmeter, and multimeter are basic electronic tools used to measure current, voltage, and resistance. It is important to use them correctly to keep the circuit safe and get accurate readings.`,
+        "video_lnk": "https://www.youtube.com/watch?v=_RCB_IF4FLQ"
     };
 
     let pr2 = {
         "index": 2,
-        "pr_hd": "practical no 2 :",
-        "obj": "It is a long established fact2...",
+        "pr_hd": "Practical no 2 :",
+        "outl":`Basic use of ammeter, voltmeter, and multimeter for measuring electrical values.`,
+        "obj": `It is a long established fact2...`,
         "video_lnk": "https://www.wikipedia.com"
     };
 
