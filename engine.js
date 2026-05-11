@@ -86,9 +86,10 @@ function calling(practicals) {
 
         // Current element ko target karna
         let currentPrac = main_cont.lastElementChild;
-
+      
         // Click Event with Toggle Logic
         currentPrac.addEventListener("click", () => {
+    
             // Agar pehle se height set hai, to usay khatam kar do (wapis purani size)
             if (currentPrac.style.height === "max-content") {
                 currentPrac.style.height = ""; // Default CSS size par chala jayega
