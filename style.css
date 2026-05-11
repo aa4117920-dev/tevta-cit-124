@@ -217,7 +217,7 @@ background: linear-gradient(280deg,var(--main-cont-color) 10%,var(--prac-clas-co
 .cp-rt{
 	color:var(--vd-btn-color);
 	font-family: arial;
-	font-weight: 100;
+	font-weight: 500;
 	letter-spacing: 1px;
 }
 
