@@ -55,7 +55,7 @@ else if(win_size<=750){
     let ani=document.getElementById("ads-main_cont");
     // console.log("m done")
     // console.log(win_size);  
-    main_cont.style.height="350px";
+    main_cont.style.height="380px";
     main_cont.style.overflowY="auto";
     ani.remove();
         }   //nested if close
