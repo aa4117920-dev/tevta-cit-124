@@ -264,7 +264,7 @@ margin:2.5% 0px;
 		height:768px;
 	}
 }
-@media only screen and (min-height: 1000px){
+@media only screen and (min-height: 850px){
 	.pre-body{
 		width:1080px;
 		height:768px;
